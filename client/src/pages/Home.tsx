@@ -375,6 +375,7 @@ export default function Home() {
         </div>
 
         <section className="mt-6 grid gap-4 lg:grid-cols-3"><InfoCard title="Como demonstrar" text="Clique em e1 ↔ a1, injete +20 ms ou falha e compare o baseline OSPF com o agente." /><InfoCard title="Pergunta de pesquisa" text="O agente reduz a duração e a severidade de violações de SLO quando o OSPF mantém a adjacência ativa?" /><InfoCard title="Métricas para análise" text="A_SLO, T_det, T_rec, L_trans, churn, falsos positivos, overhead e taxa de rollback." /></section>
+        <footer className="mt-10 border-t border-slate-800/80 pt-5 text-center text-xs text-slate-500"><p>Desenvolvido por <span className="font-medium text-cyan-200">Luís Rodrigo Amaral</span> para o <span className="font-medium text-slate-300">Projeto Integrador Unisenac Pelotas</span>.</p></footer>
       </section>
     </main>
   );
